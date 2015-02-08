@@ -1,7 +1,7 @@
 plot1 <- function() {
     ## Read desirable data from file.
     ## Assume that we already have it downloaded and unzipped. 
-    data <- read.table("C:\\Coursera\\R\\household_power_consumption.txt",   
+    data <- read.table("household_power_consumption.txt",   
                        sep = ";", na.strings = "?", skip = 66637, nrows = 2880)
     
     ## Set meaningful names to work with.
